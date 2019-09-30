@@ -9,12 +9,14 @@ The dataset used was Google's Audioset. A part of Audioset was used for this stu
 ## Data Preprocessing 
 
 - Converting raw audio clips to Mel spectrograms by making use of Librosa library.
+![alt text](https://github.com/paddy-03/Emergency-Signal-Recognition-for-the-Hearing-Impaired-using-Multichannel-CNN/blob/master/original.png)
 - Using traditional audio augmentation techniques such as adding white noise, time stretching, time shifting to increase the size of training data.
 - Using Mixup augmentation technique for effectively generating new clips from existing ones.
 
 ## Learning Model
 
 A multichannel CNN architecture was implemented, which made use of 4 different channels to extract features from spectrograms, and then the 4 channels are merged using the Add() layer in Keras. 
+![alt text](https://github.com/paddy-03/Emergency-Signal-Recognition-for-the-Hearing-Impaired-using-Multichannel-CNN/blob/master/architecture3.png)
 
 ## Requirements
 
