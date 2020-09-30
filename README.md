@@ -21,7 +21,9 @@ A multichannel CNN architecture was implemented, which made use of 4 different c
 ## App Deployment
 
 The model was deployed as an android app that sensed and recorded sounds from the environment. In case of any emergency sounds, the phone was made to vibrate.
+</br>
 ![alt text](https://github.com/rshivam08/Emergency-Signal-Recognition-for-the-Hearing-Impaired-using-Multichannel-CNN/blob/master/android_deployment.png)
+You can find the android app code <a href="https://github.com/rshivam08/Deaf-Assistant"> here. </a>
 
 ## Requirements
 
