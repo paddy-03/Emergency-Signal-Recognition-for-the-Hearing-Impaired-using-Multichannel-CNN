@@ -1,5 +1,8 @@
 # Emergency-Signal-Recognition-for-the-Hearing-Impaired-using-Multichannel-CNN
 
+
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/source-aasf/gladiator"> <img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/source-aasf/gladiator"> ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 We live in a world where auditory means are used to warn people of Emergency situations. For the hearing impaired, comprehending such auditory signals becomes impossible. So this system aims to notify the hearing imapired of the emergency situations by identifying emergency signals such as Police sirens, Ambulance siren, Fire alarms. The task is classify the background audio signal as emergency or non-emergency. This model can be deployed in an Android app that vibrates to notify the hearing impaired in the case of an emergency. Further this can be deployed on a smart-watch or a fitness band.
 
 ## Dataset
@@ -23,6 +26,7 @@ A multichannel CNN architecture was implemented, which made use of 4 different c
 The model was deployed as an android app that sensed and recorded sounds from the environment. In case of any emergency sounds, the phone was made to vibrate.
 </br>
 ![alt text](https://github.com/rshivam08/Emergency-Signal-Recognition-for-the-Hearing-Impaired-using-Multichannel-CNN/blob/master/android_deployment.png)
+</br>
 You can find the android app code <a href="https://github.com/rshivam08/Deaf-Assistant"> here. </a>
 
 ## Requirements
